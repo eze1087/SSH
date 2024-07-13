@@ -87,7 +87,7 @@ fun_ajuda() {
         env_msg+="• <u>INFO USUARIOS</u> = info do usuario\n\n"
         env_msg+="• <u>USUARIOS ONLINE</u> = Exibe Usuários onlines\n\n"
         env_msg+="• <u>INFO VPS</u> = info do servidor\n\n"
-        env_msg+="• <u>EDITAR SENHA</u> = Altera senha ssh\n\n"
+        env_msg+="• <u>EDITAR CONTRASENIA</u> = Altera senha ssh\n\n"
         env_msg+="• <u>EDITAR LIMITE</u> = Altera limite ssh\n\n"
         env_msg+="• <u>EDITAR FECHA⏳</u> = Altera FECHA⏳ ssh\n\n"
         env_msg+="• <u>EXPIRADOS</u> = Remove ssh expirados\n\n"
