@@ -2048,7 +2048,7 @@ exit 0' >$RCLOCAL
 		while true $x != "ok"; do
 			[[ ! -e '/home/sshplus' ]] && exit 0
 			clear
-			echo -e "\E[44;1;37m            SSHPLUS 🇦🇷 @diegovip7               \E[0m\n"
+			echo -e "\E[44;1;37m            SSHPLUS 🇦🇷 El NeNe @Sando               \E[0m\n"
 			echo -e "\033[1;32mSERVICIO: \033[1;33mOPENSSH \033[1;32mPORTA: \033[1;37m$(grep 'Port' /etc/ssh/sshd_config | cut -d' ' -f2 | grep -v 'no' | xargs)" && sts6="\033[1;32m◉ "
 			[[ "$(netstat -tlpn | grep 'ws-epro' | wc -l)" != '0' ]] && {
 				echo -e "\033[1;32mSERVICIO: \033[1;33mWS-EPRO: \033[1;32mPUERTO: \033[1;37m$(netstat -nplt | grep 'ws-epro' | awk {'print $4'} | cut -d: -f2 | xargs)"
