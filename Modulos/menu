@@ -225,7 +225,7 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m     ⇱ ⭐⭐⭐ ARGENTINA 🇦🇷 @alias ×_×⇲       \E[0m"
+echo -e "\E[41;1;37m     ⇱ ⭐⭐⭐ El NeNe @Sando ×_×⇲       \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;32mSISTEMA            MEMORIA RAM      PROCESADOR "
 echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mNucleos: \033[1;37m$_core\033[0m"
@@ -343,7 +343,7 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m     ⇱ ⭐⭐⭐ ARGENTINA🇦🇷 @alias ×_×⇲       \E[0m"
+echo -e "\E[41;1;37m     ⇱ ⭐⭐⭐ El NeNe @Sando ×_×⇲       \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;32mSISTEMA            MEMORIA RAM      PROCESADOR "
 echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mNucleos: \033[1;37m$_core\033[0m"
@@ -387,7 +387,7 @@ case "$x" in
    4 | 04)
    clear
    sshmonitor
-   echo -ne "\n\033[1;31mARGENTINA 🇦🇷 \033[1;33m VPS: \033[1;32m@alias!\033[0m
+   echo -ne "\n\033[1;31mARGENTINA 🇦🇷 \033[1;33m VPS: \033[1;32mEl NeNe @Sando!\033[0m
 \n\033[1;31mENTER \033[1;33mpara VOLVER al \033[1;32mMENU!\033[0m"; read
    ;;      
    5 | 05)
@@ -414,7 +414,7 @@ case "$x" in
    9 | 09)
    clear
    infousers
-   echo -ne "\n\033[1;31mArgentina 🇦🇷 \033[1;33m VPS: \033[1;32m@alias!\033[0m
+   echo -ne "\n\033[1;31mArgentina 🇦🇷 \033[1;33m VPS: \033[1;32mEl NeNe @Sando!\033[0m
 \n\033[1;31mENTER \033[1;33mpara VOLVER al \033[1;32mMENU!\033[0m"; read
    ;;
    10)
